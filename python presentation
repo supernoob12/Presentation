@@ -1,1 +1,5 @@
-
+joke = input("hey does it smell like uptweak in here")
+if input(joke) == "no"
+  print("Well you are kindly a tweak and must leave the facility immediately")
+else:
+  print("nothing much tweak what about you")
