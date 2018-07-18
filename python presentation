@@ -1,5 +1,1 @@
-joke = int("Hey does it smell like uptweak in here or is it just me?")
-if int joke.lower == "no"
-  print("Well then you are a tweak and must kindly leave from this location immediately")
-else:
-  print("Nothing much tweak whats up with you")
+
