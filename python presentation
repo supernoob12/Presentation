@@ -1,5 +1,20 @@
-joke = input("hey does it smell like uptweak in here")
-if input(joke) == "no"
-  print("Well you are kindly a tweak and must leave the facility immediately")
+import random
+lines = open('jokes.txt').read().splitlines()
+
+
+
+
+
+joke = input("Does it smell like uptweak in here or is it just me?") 
+if joke.lower() == "What is up tweak":
+    print("Nothing much what about you?")
 else:
-  print("nothing much tweak what about you")
+    print("You are mistaken tweak we don't allow normies in this facility")
+response = input("Would you like to hear another joke.....hehe?")
+if response.lower() == "yes":
+    print(myline)
+else:
+    print("Thank you for helping the effort to cure ligma. Goodbye!")
+    
+myline = random.choice(lines)
+print(myline)
